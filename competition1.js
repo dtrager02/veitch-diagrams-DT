@@ -105,7 +105,7 @@ for(var i = 0; i <= 15; i+=4){
   bin +='';
   hex += ConvertBase.bin2hex(bin);
 }
-console.log(hex);
+console.log(hex.toUpperCase());
 
 readline.close();
   });
